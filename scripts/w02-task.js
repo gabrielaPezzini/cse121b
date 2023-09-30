@@ -7,7 +7,7 @@ let fullName = 'Gabriela Cachapuz';
 /*💡A const declaration is OK to use to declare this variable because the value will not change in this application.
 💡You can use single quotes ('), double quotes ("), or backticks (`) to surround the string (sequence of characters) data type value. */
 let currentYear = new Date().getFullYear();
-let profilePicture = 'images/placeholder.png';
+let profilePicture = 'images/images/placeholder.png';
 
 /* Step 3 - Element Variables */
 const nameElement = document.getElementById('name');
