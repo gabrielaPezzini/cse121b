@@ -8,7 +8,7 @@ let myProfile = {
   photo: 'images/images/placeholder.png',
   favoriteFoods: ['Pizza', 'Barbecue', 'Ice Cream', 'Water Mellow', 'Pasta'],
   hobbies: ['Volleyball', 'Books', 'Series'],
-  placesLived: ['Novo Hamburgo', 'Caxias', 'São Leopoldo'],
+  placesLived: ['Novo Hamburgo', 'Caxias'],
 };
 
 myProfile.placesLived.push({
@@ -26,10 +26,6 @@ myProfile.placesLived[1] = {
   length: '1 year',
 };
 
-myProfile.placesLived[2] = {
-  place: 'São Leopoldo, RS',
-  length: '6 months',
-};
 
 /* DOM Manipulation - Output */
 
