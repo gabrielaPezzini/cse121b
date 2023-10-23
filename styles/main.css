@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+
+
 /* HTML Selectors */
 body {
     font-family: 'Roboto', Helvetica, sans-serif;
@@ -62,10 +64,6 @@ h1, h2 {
     text-align: center;
     margin-bottom: 15px;
 
-}
-
-h1 {
-border-bottom: 1px solid #ccc;
 }
 
 h2 {

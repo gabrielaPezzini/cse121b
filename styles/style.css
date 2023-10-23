@@ -1,0 +1,40 @@
+body {
+  background-image: url('../images/images/francesca-grima-ln_slYqaMiI-unsplash.jpg') !important ; 
+  /*I love libraries with an old-fashioned feel that makes you want to sit down and study, so I chose this image*/
+  background-color: blueviolet;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.85);
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 40px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  border-radius: 10px;
+}
+
+.center {
+  margin: auto;
+}
+
+#header {
+  font-size: 3rem;
+}
+
+.book-list {
+  margin-top: 50px;
+  visibility: hidden;
+  
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+h3 {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 10px;
+}

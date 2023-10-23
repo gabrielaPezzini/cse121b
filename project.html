@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Find Your Story</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav>
+    <ul id="menu">
+        <li><a id="toggleMenu">&equiv;</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="w01-task.html">W1 Task</a></li>
+        <li><a href="w03-task.html" >W3 Task</a></li>
+        <li><a href="w04-task.html">W4 Task</a></li>
+        <li><a href="w05-task.html">W5 Task</a></li>
+        <li><a href="project.html" class="active">Project</a></li>
+    </ul>
+  </nav>>
+
+  <div class="container">
+    <div id="title" class="center">
+      <h1 id="header" class="text-center">Find Your Story</h1>
+    </div> 
+    <div class="row">
+      <div id="input" class="input-group mx-auto col-lg-6 col-md-8 col-sm-12"> <!-- mx-auto, col-large-6, col-medium-8, col-small-12 -->
+        <input type="text" name="input-button" id="search-box" class="form-control" placeholder="Find here your story...">
+        <button id="search" class="btn btn-primary" onclick="">Search</button>
+      </div>
+    </div>
+  </div>
+  <div class="book-list">
+    <h3 class="text-center">Your Stories</h3>
+    <div id="list-output" class="">
+      <div class="row">
+        <!-- Result cards will be displayed here -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap and JavaScript libraries -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+  <script src="scripts/project.js"></script>
+
+</body>
+
+</html>
